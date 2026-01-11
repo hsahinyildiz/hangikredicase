@@ -1,0 +1,43 @@
+# Node modules
+/node_modules/
+
+# macOS
+.DS_Store
+
+#vendor
+vendor/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+
+# Environment files
+.env
+.env.*.local
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace
+xcuserdata/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.iml
+local.properties
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
